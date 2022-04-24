@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    resize: none;
+    color: white;
+    border-left: 1px solid black;
+}
+
+.jumbotron {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    text-align: center;
+    color: black;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 85px;
+    border-top: 1px solid white;
+}
+
+.description {
+    white-space: pre-wrap;
+}
+
+.hour {
+    background-color: white;
+    color: black;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.present {
+    background-color: red ;
+    color: white;
+}
+
+.past {
+    background-color: lightgray;
+    color: white;
+}
+
+.future {
+    background-color: lightgreen;
+    color: white;
+}
+
+.savebtn {
+    background-color: lightskyblue;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+
+.savebtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
