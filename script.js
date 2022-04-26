@@ -1,9 +1,9 @@
 var $currentDay = $("#currentDay");
 var $scheduleArea = $(".schedule");
-var $timeBlocks = $("time-block");
+var $timeBlocks = $(".time-block");
+var toDOItems = [];
 var currentDate = moment().format("dddd, MMMM Do");
 var currentHour = moment().format("H");
-var toDOItems = [];
 
 function initializeSchedule(){
     $timeBlocks.each(function(){
